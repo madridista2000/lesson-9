@@ -1,46 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact-Fotms</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
+    <script src="https://kit.fontawesome.com/a616076c0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
     <header>
-     <div class="background">
-      <div class="bacgrpund-color"></div>
+      <div class="background">
+        <div class="bacgrpund-color"></div>
         <div class="header-box">
-        <h3>Zetta Hotels</h3>
-        <nav class="navigation">
+          <h3>Zetta Hotels</h3>
+          <nav class="navigation">
             <ul class="navul">
-                <li class="navli active">Home</li>
-                <li class="navli">Rooms</li>
-                <li class="navli">Restaurant</li>
-                <li class="navli">About us</li>
-                <li class="navli">Blog</li>
-                <li class="navli">contact</li>
+              <li class="navli active">Home</li>
+              <li class="navli">Rooms</li>
+              <li class="navli">Restaurant</li>
+              <li class="navli">About us</li>
+              <li class="navli">Blog</li>
+              <li class="navli">contact</li>
             </ul>
-        </nav>
-        <div class="header-box2">
+          </nav>
+          <div class="header-box2">
             <h2 class="head2">Contact</h2>
             <div class="boxinbox">
-             <p class="text1">Home</p>
-             <div class="line"></div>
-             <p class="text1">Contact</p>
-           </div>
+              <p class="text1 after">Home</p>
+              <p class="text1">Contact</p>
+            </div>
+          </div>
+        </div>
       </div>
-     </div>
-     </div>
-   </header>
-   <section>
-       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1219855257987!2d-80.84107758475359!3d35.22833328030238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a024bc5716dd%3A0x709e0e7838b9b467!2sLevine%20Museum%20of%20the%20New%20South!5e0!3m2!1sen!2sge!4v1622409615687!5m2!1sen!2sge" width="1088" height="286" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </header>
+    <section>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1219855257987!2d-80.84107758475359!3d35.22833328030238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a024bc5716dd%3A0x709e0e7838b9b467!2sLevine%20Museum%20of%20the%20New%20South!5e0!3m2!1sen!2sge!4v1622409615687!5m2!1sen!2sge"
+          width="1088"
+          height="286"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
         <div class="map-back"></div>
-    </div>
-   </section>
-</body>
+      </div>
+    </section>
+    <section>
+      <div class="section1-conteiner">
+        <div class="conteiner-box1">
+          <p class="section1-text">Contact</p>
+          <p class="section1-text1">Contact us to get free support</p>
+        </div>
+        <div class="section1-conteiner1">
+            <div class="form-conteiner">
+          <label for="desciption"></label>
+            <textarea
+              name="text"
+              id="description"
+              placeholder="description"
+            ></textarea>
+        </div>
+        <div class="section1-conteiner2">
+            <form action="#"></form>
+          <div class="form">
+            <label for="subject"></label>
+            <input type="text" id="subject" name="username" placeholder="Subject" required/>
+          </div>
+          <div class="form">
+            <label for="name"></label>
+            <input type="text" id="name" name="surname" placeholder="Name / surname" required/>
+          </div>
+          <div class="form">
+            <label for="mail"></label>
+            <input type="email" id="mail" name="email" placeholder="Email" required/>
+          </div class="form">
+          <div class="form but">
+              <button type="submit">Send <i class="far fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="conteiner-wraper">
+          <div class="wraper-box">
+              <div class="circle"><i class="far fa-envelope"></i></div>
+              <h3 class="wraper-head">Email</h3>
+              <p>example@yahoo.com</p>
+              <p>exampleemail2@yahoo.com</p>
+          </div>
+          <div class="wraper-box">
+            <div class="circle"><i class="fas fa-phone-alt"></i></div>
+            <h3 class="wraper-head">Phone</h3>
+            <p>+0 320 422 4254</p>
+            <p>+0 342 552 523</p>
+        </div>
+        <div class="wraper-box">
+            <div class="circle"><i class="fas fa-map-marker-alt"></i></div>
+            <h3 class="wraper-head">Location</h3>
+            <p>Main Str Chicago Ilinois</p>
+            <p>Main Street New York City</p>
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="section2-conteiner">
+            <div class="conteiner-box1">
+              <p class="section1-text">Photos</p>
+              <p class="section1-text1">See our latest photos from restaurant and hotel</p>
+            </div>
+            <div class="image-conteiner">
+                <img src="images/foto.jpg" alt="beach">
+                <img src="images/foto1.jpg" alt="mountain">
+                <img src="images/foto2.jpg" alt="restourant">
+            </div>
+            </div>
+    </section>
+  </body>
 </html>

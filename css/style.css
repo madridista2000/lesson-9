@@ -70,10 +70,21 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+.after::after {
+    content: url(' ');
+    width: 1px;
+    height: 19px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px;
+}
+/* ......section1..... */
 .map {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 56px;
     position: relative;
 }
 .map-back {
@@ -82,4 +93,118 @@
     background-color: black;
     position: absolute;
     opacity: 0.3;
+}
+/* ....section2.... */
+.conteiner-box1 {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.section1-text {
+    font-size: 14px;
+    color: #5863F8;
+}
+.section1-text1 {
+    font-size: 42px;
+    color: #000000;
+}
+.section1-conteiner {
+    width: 1088px;
+    margin: 0 auto;
+
+}
+#description {
+    width: 720px;
+    height: 288px;
+}
+input {
+    width: 352px;
+    height: 60px;
+}
+button {
+    width: 352px;
+    height: 60px;
+    background-color: #5863F8;
+    color: #EBEBEB;
+    border: none;
+}
+#description {
+    background-color: #F8F8F8;
+}
+.section1-conteiner1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section1-conteiner2 {
+    width: 352px;
+    height: 288px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-between;
+    
+}
+.section1-conteiner2 [type=text] {
+    background-color: #F8F8F8;
+    border-color: #E8E8E8;
+}
+.form {
+    height: 60px;
+   
+}
+.form-conteiner::placeholder {
+    font-size: 13px;
+}
+.form::placeholder {
+    font-size: 13px;
+}
+#mail {
+    border-color: #E8E8E8;
+}
+.fa-paper-plane {
+    width: 16px;
+    height: 16px;
+}
+.conteiner-wraper {
+    width: 1088px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.wraper-box {
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #B1B1B1;
+}
+.circle {
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.wraper-head {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.conteiner-box1 {
+    width: 430px;
+    margin-left: 130px;
+}
+.image-conteiner {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
