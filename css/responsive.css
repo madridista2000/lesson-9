@@ -14,18 +14,17 @@
     .footer-bottom {flex-wrap: wrap;}
     .conteiner-wraper {flex-wrap: wrap;}
     .conteiner-box1 {margin-left: 5px;}
-}
-@media (max-width:720px) {
     .form {width: 100%;}
     .image-conteiner {width: 100%;}
     .conteiner-box1 {width: 100%;
     flex-direction: column;}
-    /* input, button, textarea, img {width: 100%;} */
+    .image-conteiner, .conteiner-wraper {justify-content: center;}
     .footer-box, .conteiner-box {margin: 0 auto;
-    width: 100%;}
+    width: 200px;}
+    .section1-conteiner {margin-top: 20px;}
+    .section1-text1 {font-size: 25px;}
 }
 @media (max-width:370px) {
     .section1-conteiner2, input, button, textarea, img {width: 100%;}
-    .form {magin:0 auto;}
     #description {width: 300px;}
 }
