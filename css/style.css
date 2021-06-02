@@ -35,6 +35,9 @@
     font-size: 14px;
     font-weight: 700;
 }
+.burger {
+    display: none;
+}
 .navul {
     display: flex;
 }
@@ -128,6 +131,7 @@
 #description {
     width: 720px;
     height: 288px;
+    background-color: #F8F8F8;
 }
 input {
     width: 352px;
@@ -144,13 +148,9 @@ button:hover {
     background-color: darkslateblue;
     cursor: pointer;
 }
-#description {
-    background-color: #F8F8F8;
-}
 .section1-conteiner1 {
     margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
@@ -227,6 +227,7 @@ button:hover {
     width: 100%;
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 /* ....footer.... */
